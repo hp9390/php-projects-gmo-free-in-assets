@@ -1,0 +1,11 @@
+{
+  "directory": "web/bundles/GFIAssetsBundle/bower_components/",
+  "analytics": false,
+  "timeout": 120000,
+  "registry": {
+    "search": [
+      "http://bower.io/search/",
+      "https://bower.herokuapp.com"
+    ]
+  }
+}

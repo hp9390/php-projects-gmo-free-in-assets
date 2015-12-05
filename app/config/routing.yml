@@ -1,3 +1,7 @@
+cosmo_gfi_assets:
+    resource: "@cosmoGFIAssetsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

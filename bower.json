@@ -1,0 +1,25 @@
+{
+  "name": "php-projects-gmo-free-in-assets",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Holger Piontek <hp9390@gmail.com> ()"
+  ],
+  "license": "Artistic-2.0",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "AngularJS": "angular-latest#~1.4.8"
+  }
+}
