@@ -20,6 +20,6 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4",
-    "AngularJS": "angular-latest#~1.4.8"
+    "angular": "angular-latest#~1.4.8"
   }
 }

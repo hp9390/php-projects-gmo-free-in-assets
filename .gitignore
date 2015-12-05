@@ -3,7 +3,7 @@
 /build/
 /composer.phar
 /vendor/
-/web/bundles/
+#/web/bundles/
 /var/
 !var/cache/.gitkeep
 !var/logs/.gitkeep
@@ -446,7 +446,7 @@ local.properties
 /vendor/
 
 # Assets and user uploads
-/web/bundles/
+#/web/bundles/
 /web/uploads/
 
 # PHPUnit
