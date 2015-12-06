@@ -10,7 +10,7 @@ module.exports = function (grunt, options) {
             tagName: 'v%VERSION%',
             tagMessage: 'Version %VERSION%',
             push: true,
-            pushTo: 'upstream',
+            pushTo: 'ammazon',
             gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
             globalReplace: false,
             prereleaseName: false,
