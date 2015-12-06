@@ -1,9 +1,7 @@
 module.exports = function (grunt) {
 
     var path = require('path');
-    //require('jit-grunt')(grunt)({
-    //    pluginsRoot: 'grunt/'
-    //});
+    require('jit-grunt')(grunt)({});
     require('load-grunt-config')(grunt, {
         configPath: path.join(process.cwd(), 'grunt'),
 
@@ -35,6 +33,7 @@ module.exports = function (grunt) {
         jitGrunt: {
             // here you can pass options to jit-grunt (or just jitGrunt: true)
             staticMappings: {
+                jitGrunt: true
                 // here you can specify static mappings, for example:
                 //coffee: 'grunt/coffee.js' //this does NOT work!!!
             }
