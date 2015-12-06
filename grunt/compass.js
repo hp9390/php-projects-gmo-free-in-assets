@@ -7,6 +7,14 @@ module.exports = function (grunt, options) {
                 cssDir: '<%= assetPath %>/css',
                 environment: 'production'
             }
+        },
+        gh: {
+            options: {
+                sourcemap: true,
+                sassDir: 'gh-pages/src/scss',
+                cssDir: 'gh-pages/dist/css',
+                environment: 'production'
+            }
         }
     };
 };

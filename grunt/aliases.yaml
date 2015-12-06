@@ -1,6 +1,11 @@
+default:
+  - 'compile'
+  - 'contributors'
+  - 'bump'
+  - 'gh-pages'
+
 compile:
   - 'coffee'
   - 'compass'
   - 'uglify'
   - 'haml'
-  - 'bump'
