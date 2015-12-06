@@ -15,5 +15,5 @@ compile:
   - 'haml'
   - 'uglify'
   - 'htmlmin'
-  - 'shell:gulpprefixgh'
+#  - 'shell:gulpprefixgh'
   - 'bump'
