@@ -2,8 +2,9 @@ module.exports = function (grunt, options) {
     return {
         all: {
             options: {
-                sassDir: 'web/bundles/GFIAssetsBundle/scss',
-                cssDir: 'web/bundles/GFIAssetsBundle/css',
+                sourcemap: true,
+                sassDir: '<%= assetPath %>/scss',
+                cssDir: '<%= assetPath %>/css',
                 environment: 'production'
             }
         }

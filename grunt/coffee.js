@@ -3,9 +3,10 @@ module.exports = function (grunt, options) {
         all: {
             expand: true,
             flatten: true,
-            cwd: 'web/bundles/GFIAssetsBundle/coffee',
+            sourcemap: true,
+            cwd: '<%= assetPath %>/coffee',
             src: ['*.coffee'],
-            dest: 'web/bundles/GFIAssetsBundle/js',
+            dest: '<%= assetPath %>/js',
             ext: '.js'
         }
     };

@@ -11,7 +11,9 @@ module.exports = function (grunt) {
         init: true,
 
         // data passed into config.  Can use with <%= test %>
-        data: {},
+        data: {
+            'assetPath': 'web/bundles/GFIAssetsBundle'
+        },
 
         // can optionally pass options to load-grunt-tasks.
         // If you set to false, it will disable auto loading tasks.
