@@ -7,5 +7,5 @@ gulp.task('prefixgh', function () {
             browsers: ['last 2 versions'],
             cascade: true
         }))
-        .pipe(gulp.dest('gh-pages/dist'));
+        .pipe(gulp.dest('gh-pages/dist/css'));
 });
