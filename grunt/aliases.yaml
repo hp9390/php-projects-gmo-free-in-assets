@@ -1,11 +1,12 @@
 default:
   - 'compile'
   - 'contributors'
-  - 'bump'
   - 'gh-pages'
+  - 'bump'
 
 compile:
   - 'coffee'
   - 'compass'
-  - 'uglify'
   - 'haml'
+  - 'uglify'
+  - 'htmlmin'

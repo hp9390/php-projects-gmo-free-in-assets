@@ -3,6 +3,6 @@ module.exports = function (grunt, options) {
         options: {
             base: 'gh-pages/dist'
         },
-        src: ['**']
+        src: ['**', '!html']
     }
 };

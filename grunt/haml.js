@@ -17,7 +17,7 @@ module.exports = function (grunt, options) {
                     expand: true,
                     cwd: 'gh-pages/src/haml',
                     src: '**/*.haml',
-                    dest: 'gh-pages/dist/',
+                    dest: 'gh-pages/dist/html',
                     ext: '.html'
                 }
             ]
