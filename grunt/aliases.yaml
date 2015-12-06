@@ -1,8 +1,13 @@
 default:
   - 'compile'
+  - 'github'
+
+github:
   - 'contributors'
-  - 'bump'
   - 'gh-pages'
+
+docker:
+  - 'dockerstart'
 
 compile:
   - 'coffee'
@@ -10,3 +15,5 @@ compile:
   - 'haml'
   - 'uglify'
   - 'htmlmin'
+  - 'shell:gulpprefixgh'
+  - 'bump'

@@ -35,7 +35,7 @@ module.exports = function (grunt) {
             staticMappings: {
                 jitGrunt: true
                 // here you can specify static mappings, for example:
-                //coffee: 'grunt/coffee.js' //this does NOT work!!!
+                //shell: 'grunt/shell.js'
             }
         }
     });

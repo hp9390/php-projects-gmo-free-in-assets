@@ -1,4 +1,4 @@
-php-projects-gmo-free-in-assets
+GMO-free.in
 ===============================
 
-A Symfony project created on December 5, 2015, 7:34 pm.
+The assets to the GMO-free.in project.

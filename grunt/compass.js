@@ -12,7 +12,7 @@ module.exports = function (grunt, options) {
             options: {
                 sourcemap: true,
                 sassDir: 'gh-pages/src/scss',
-                cssDir: 'gh-pages/dist/css',
+                cssDir: 'gh-pages/build/css',
                 environment: 'production'
             }
         }
