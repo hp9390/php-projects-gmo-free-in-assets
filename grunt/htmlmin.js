@@ -8,9 +8,24 @@ module.exports = function (grunt, options) {
             files: [
                 {
                     expand: true,
-                    cwd: 'gh-pages/dist/html/',
+                    cwd: 'gh-pages/build/html/',
                     src: ['**/*.html'],
                     dest: 'gh-pages/dist/',
+                    ext: '.html'
+                }
+            ]
+        },
+        web: {
+            options: {
+                removeComments: true,
+                collapseWhitespace: true
+            },
+            files: [
+                {
+                    expand: true,
+                    cwd: '<%= assetPath %>/src/html/',
+                    src: ['**/*.html'],
+                    dest: '<%= assetPath %>/html/',
                     ext: '.html'
                 }
             ]

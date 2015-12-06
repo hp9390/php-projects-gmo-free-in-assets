@@ -1,6 +1,6 @@
 {
     "name": "cosmo/php.projects.gmo.free.in.assets",
-    "version": "0.0.33",
+    "version": "0.0.34",
     "license": "proprietary",
     "type": "project",
     "autoload": {

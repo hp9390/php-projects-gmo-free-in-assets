@@ -6,7 +6,7 @@ module.exports = function (grunt, options) {
                     expand: true,
                     cwd: '<%= assetPath %>/haml',
                     src: '**/*.haml',
-                    dest: '<%= assetPath %>/html',
+                    dest: '<%= assetPath %>/src/html',
                     ext: '.html'
                 }
             ]
@@ -17,7 +17,7 @@ module.exports = function (grunt, options) {
                     expand: true,
                     cwd: 'gh-pages/src/haml',
                     src: '**/*.haml',
-                    dest: 'gh-pages/dist/html',
+                    dest: 'gh-pages/build/html',
                     ext: '.html'
                 }
             ]
