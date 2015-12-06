@@ -1,7 +1,7 @@
 module.exports = function (grunt, options) {
     return {
         options: {
-            files: ['package.json', 'component.json'],
+            files: ['package.json', 'composer.json'],
             updateConfigs: [],
             commit: true,
             commitMessage: 'Release v%VERSION%',
