@@ -1,8 +1,8 @@
 default:
   - 'compile'
   - 'contributors'
-  - 'gh-pages'
   - 'bump'
+  - 'gh-pages'
 
 compile:
   - 'coffee'
