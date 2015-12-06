@@ -2,3 +2,4 @@ compile:
   - 'coffee'
   - 'compass'
   - 'uglify'
+  - 'bump'
